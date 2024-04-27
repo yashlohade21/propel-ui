@@ -1,0 +1,40 @@
+.PriceCard-Section {
+  margin-top: 5rem;
+}
+
+.PriceCard-Collection {
+  width: 100%;
+  /* display: flex; */
+}
+
+.PriceCard {
+  color: #c0c0d8;
+  background: transparent;
+  /* margin: 3rem 0.5rem ; */
+
+  background: linear-gradient(
+    180deg,
+    rgba(141, 141, 185, 0.16) 0%,
+    rgba(8, 8, 12, 0) 100%
+  );
+  border: 1px solid #2c2746;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.PriceCard:hover {
+  transform: scale(1.1);
+}
+
+.PriceCard-btn {
+  display: block;
+  width: 85%;
+  margin: 0.8rem auto;
+  padding-top: 1rem;
+  padding-bottom: 0.3rem;
+  border: solid;
+  border-width: 0 0 1px 0;
+  border-color: #2f254e;
+}
